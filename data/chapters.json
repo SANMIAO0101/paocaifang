@@ -1,5 +1,21 @@
 [
   {
+    {
+  "novelId": "liuan",
+  "novelTitle": "柳安",
+  "chapters": [
+    {
+      "title": "第1章",
+      "link": "chapters/liuan/chapter-1.html",
+      "date": "2026-05-26"
+    },
+    {
+      "title": "第2章",
+      "link": "chapters/liuan/chapter-2.html",
+      "date": "2026-05-27"
+    }
+  ]
+}
     "novelId": "novel-1",
     "chapterId": "chapter-1",
     "title": "第1章 回声",
