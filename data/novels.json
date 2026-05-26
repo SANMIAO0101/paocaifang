@@ -1,5 +1,21 @@
 [
   {
+    {
+  "id": "liuan",
+  "title": "柳安",
+  "author": "김지소지음",
+  "category": "女频",
+  "status": "连载中",
+  "cover": "assets/images/covers/liuan-cover.png",
+  "banner": "assets/images/banners/liuan-banner.png",
+  "link": "novels/liuan.html",
+  "tags": ["现代", "悬疑", "爱情", "暗黑"],
+  "summary": "一场危险的靠近，一段无法逃脱的纠缠。她以为自己只是被卷入迷局，却不知道命运早已把两个人锁在同一把枪口之下。",
+  "latestChapter": "第1章",
+  "latestChapterLink": "chapters/liuan/chapter-1.html",
+  "updateDate": "2026-05-26",
+  "featured": true
+}
     "id": "novel-1",
     "title": "反应定律",
     "subtitle": "越想逃，越会被命运反噬。",
