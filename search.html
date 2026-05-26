@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search | 雾樱书房</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/search.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span>雾</span><strong>雾樱书房</strong></a>
+      <nav class="main-nav"><a href="index.html">Home</a><a href="stories.html">Stories</a><a href="search.html">Search</a><button class="icon-btn" id="themeToggle" type="button">◐</button><a href="data/chapters.json">RSS</a></nav>
+    </header>
+    <main class="page-shell">
+      <section class="page-hero">
+        <p>Search</p>
+        <h1>搜索结果</h1>
+      </section>
+      <section class="search-panel">
+        <input id="siteSearch" type="search" placeholder="输入小说、章节、标签或作者" autofocus />
+        <div class="tag-row">
+          <button type="button" data-search-tag="悬疑">悬疑</button>
+          <button type="button" data-search-tag="现代">现代</button>
+          <button type="button" data-search-tag="林澈">作者：林澈</button>
+        </div>
+      </section>
+      <section id="searchResults" class="compact-list" aria-live="polite"></section>
+    </main>
+    <footer class="site-footer">© 2026 雾樱书房</footer>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/search.js"></script>
+  </body>
+</html>

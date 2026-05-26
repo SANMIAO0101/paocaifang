@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stories | 雾樱书房</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/stories.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span>雾</span><strong>雾樱书房</strong></a>
+      <nav class="main-nav"><a href="index.html">Home</a><a href="stories.html">Stories</a><a href="search.html">Search</a><button class="icon-btn" id="themeToggle" type="button">◐</button><a href="data/chapters.json">RSS</a></nav>
+    </header>
+    <main class="page-shell">
+      <section class="page-hero">
+        <p>Stories</p>
+        <h1>小说总列表</h1>
+      </section>
+      <section class="toolbar">
+        <input id="storySearch" type="search" placeholder="搜索小说名、作者或标签" />
+        <select id="categoryFilter" aria-label="分类筛选">
+          <option value="all">全部分类</option>
+          <option value="serial">连载中</option>
+          <option value="finished">已完结</option>
+        </select>
+        <select id="tagFilter" aria-label="标签筛选">
+          <option value="all">全部标签</option>
+          <option value="bg">BG</option>
+          <option value="bl">BL</option>
+          <option value="modern">现代</option>
+          <option value="suspense">悬疑</option>
+        </select>
+      </section>
+      <section class="masonry story-results">
+        <article class="novel-card" data-category="serial" data-tags="bg suspense fantasy" data-keywords="霜灯列车 林澈 奇幻 悬疑"><img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=700&q=80" alt="霜灯列车封面" /><div><p class="meta">连载中 · BG · 悬疑</p><h2><a href="novels/novel-1.html">霜灯列车</a></h2><p>冬夜列车、失踪城市和迟到十年的告白。</p></div></article>
+        <article class="novel-card" data-category="finished" data-tags="modern suspense" data-keywords="午夜放映厅 许未 都市 悬疑"><img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?auto=format&fit=crop&w=700&q=80" alt="午夜放映厅封面" /><div><p class="meta">已完结 · 现代 · 悬疑</p><h2><a href="novels/novel-2.html">午夜放映厅</a></h2><p>一张电影票换回一段遗忘的人生。</p></div></article>
+      </section>
+    </main>
+    <footer class="site-footer">© 2026 雾樱书房</footer>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/tags.js"></script>
+  </body>
+</html>

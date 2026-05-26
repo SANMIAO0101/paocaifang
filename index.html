@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>雾樱书房 | 首页</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span>雾</span><strong>雾樱书房</strong></a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="index.html">Home</a>
+        <a href="stories.html">Stories</a>
+        <a href="search.html" aria-label="搜索">Search</a>
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="夜间模式">◐</button>
+        <a href="data/chapters.json" aria-label="RSS">RSS</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="banner-slider" aria-label="Banner轮播区">
+        <article class="banner-slide is-active">
+          <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1100&q=85" alt="霜灯列车封面" />
+          <div>
+            <p class="tag-row"><span>奇幻</span><span>悬疑</span><span>连载中</span></p>
+            <h1>霜灯列车</h1>
+            <p>只在冬夜出现的列车，载着失踪城市、无名乘客和迟到十年的告白。</p>
+            <a class="btn primary" href="novels/novel-1.html">立即阅读</a>
+          </div>
+        </article>
+        <article class="banner-slide">
+          <img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?auto=format&fit=crop&w=1100&q=85" alt="午夜放映厅封面" />
+          <div>
+            <p class="tag-row"><span>都市</span><span>轻悬疑</span><span>已完结</span></p>
+            <h1>午夜放映厅</h1>
+            <p>每张电影票都能换回一段遗忘的人生，代价是替另一个人记住结局。</p>
+            <a class="btn primary" href="novels/novel-2.html">立即阅读</a>
+          </div>
+        </article>
+        <div class="slider-dots" aria-label="轮播控制">
+          <button class="is-active" type="button" data-slide="0" aria-label="第一个 Banner"></button>
+          <button type="button" data-slide="1" aria-label="第二个 Banner"></button>
+        </div>
+      </section>
+
+      <section class="content-section">
+        <div class="section-title">
+          <p>Featured</p>
+          <h2>推荐小说</h2>
+        </div>
+        <div class="card-grid">
+          <article class="novel-card">
+            <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=700&q=80" alt="霜灯列车封面" />
+            <div>
+              <p class="meta">连载中 · 每周五更新</p>
+              <h3><a href="novels/novel-1.html">霜灯列车</a></h3>
+              <p>奇幻悬疑长篇，适合喜欢慢热谜团与群像关系的读者。</p>
+            </div>
+          </article>
+          <article class="novel-card">
+            <img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?auto=format&fit=crop&w=700&q=80" alt="午夜放映厅封面" />
+            <div>
+              <p class="meta">已完结 · 全 12 章</p>
+              <h3><a href="novels/novel-2.html">午夜放映厅</a></h3>
+              <p>都市轻悬疑短篇，关于记忆、电影票和错过的人生。</p>
+            </div>
+          </article>
+          <article class="novel-card">
+            <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=700&q=80" alt="雾城档案封面" />
+            <div>
+              <p class="meta">设定集 · 持续补完</p>
+              <h3><a href="tags/suspense.html">雾城档案</a></h3>
+              <p>收录人物、地点、组织与术语，作为长篇阅读时的随身索引。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section split-section">
+        <div>
+          <div class="section-title">
+            <p>New Stories</p>
+            <h2>最新小说</h2>
+          </div>
+          <div class="compact-list">
+            <a href="novels/novel-1.html"><strong>霜灯列车</strong><span>2026.05.24</span></a>
+            <a href="novels/novel-2.html"><strong>午夜放映厅</strong><span>2026.04.29</span></a>
+            <a href="tags/suspense.html"><strong>雾城档案</strong><span>2026.05.17</span></a>
+          </div>
+        </div>
+        <div>
+          <div class="section-title">
+            <p>Latest Chapters</p>
+            <h2>最新章节</h2>
+          </div>
+          <div class="chapter-list">
+            <a href="chapters/novel-1/chapter-2.html"><span>霜灯列车</span><strong>第 2 章：白雾站台</strong><time>2026.05.24</time></a>
+            <a href="chapters/novel-1/chapter-1.html"><span>霜灯列车</span><strong>第 1 章：三点十七分</strong><time>2026.05.17</time></a>
+            <a href="chapters/novel-2/chapter-1.html"><span>午夜放映厅</span><strong>第 1 章：旧票根</strong><time>2026.04.29</time></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="social-strip" aria-label="社交入口">
+        <a href="#">微博</a>
+        <a href="#">QQ群</a>
+        <a href="data/chapters.json">RSS</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">© 2026 雾樱书房 · 个人小说网站</footer>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/slider.js"></script>
+  </body>
+</html>
