@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1300" viewBox="0 0 1000 1300">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#b9b08c"/>
+      <stop offset=".6" stop-color="#4d5b4b"/>
+      <stop offset="1" stop-color="#A14B24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1300" rx="70" fill="url(#g)"/>
+  <path d="M0 220 C230 120 310 330 520 240 C760 138 805 235 1000 145 L1000 0 L0 0Z" fill="#fff8ef" opacity=".25"/>
+  <path d="M0 1080 C260 1000 340 1180 570 1090 C790 1005 850 1100 1000 1040 L1000 1300 L0 1300Z" fill="#1e130e" opacity=".18"/>
+  <rect x="105" y="135" width="790" height="1030" rx="52" fill="#fff8ef" opacity=".72"/>
+  <circle cx="500" cy="430" r="190" fill="#A14B24" opacity=".13"/>
+  <text x="500" y="575" text-anchor="middle" font-size="96" fill="#A14B24" font-family="serif" font-weight="900">雾港情书</text>
+  <text x="500" y="660" text-anchor="middle" font-size="34" fill="#5b432d" font-family="serif">耽美悬疑</text>
+  <text x="500" y="1000" text-anchor="middle" font-size="38" fill="#938D58" font-family="serif" letter-spacing="10">PaoCai Novels</text>
+</svg>

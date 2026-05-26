@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="960" viewBox="0 0 720 960">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#e1c6a6"/>
+      <stop offset="0.55" stop-color="#7d3c1d"/>
+      <stop offset="1" stop-color="#938D58"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="24" stdDeviation="25" flood-color="#4a2412" flood-opacity=".28"/></filter>
+  </defs>
+  <rect width="720" height="960" rx="54" fill="url(#g)"/>
+  <circle cx="122.4" cy="115.19999999999999" r="150" fill="#fff6e9" opacity=".25"/>
+  <circle cx="648.0" cy="825.6" r="210" fill="#2b1a10" opacity=".18"/>
+  <rect x="68" y="84" width="584" height="792" rx="42" fill="#fff8ef" opacity=".76" filter="url(#shadow)"/>
+  <text x="360.0" y="412.8" text-anchor="middle" font-size="68" fill="#A14B24" font-family="serif" font-weight="900">金枝藏刃</text>
+  <text x="360.0" y="499.20000000000005" text-anchor="middle" font-size="28" fill="#6b5b43" font-family="serif">宫廷西幻</text>
+  <text x="360.0" y="691.1999999999999" text-anchor="middle" font-size="30" fill="#938D58" font-family="serif" letter-spacing="8">泡菜小说坊</text>
+</svg>

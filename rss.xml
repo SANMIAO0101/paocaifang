@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>泡菜小说坊</title>
+    <link>https://example.github.io/novel-site/</link>
+    <description>泡菜小说坊最新章节订阅</description>
+    <language>zh-CN</language>
+    <item>
+      <title>反应定律 第2章 雨夜证词</title>
+      <link>chapters/novel-1/chapter-2.html</link>
+      <description>冷感女法医与旧日对手重逢。</description>
+      <pubDate>Mon, 25 May 2026 09:00:00 +0800</pubDate>
+    </item>
+  </channel>
+</rss>

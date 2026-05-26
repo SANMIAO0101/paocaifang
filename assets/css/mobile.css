@@ -1,0 +1,22 @@
+@media (max-width: 960px){
+  .banner-slide,.novel-box,.tag-layout{grid-template-columns:1fr}
+  .grid,.social-box,.character-grid,.recommend-grid,.tag-grid{grid-template-columns:1fr 1fr}
+  .masonry{grid-template-columns:repeat(2,1fr)}
+  .filter-panel{grid-template-columns:1fr 1fr}
+  .banner-cover{max-width:280px;margin:0 auto}
+}
+@media (max-width: 640px){
+  .navbar{height:auto;padding:12px 0;align-items:flex-start}
+  .brand span{font-size:18px}
+  .nav-links{justify-content:flex-end;font-size:14px}
+  .nav-links a,.theme-toggle{padding:6px 9px}
+  .hero{padding-top:24px}
+  .banner-shell{border-radius:24px}
+  .banner-slide{padding:24px;min-height:auto}
+  .grid,.masonry,.social-box,.character-grid,.recommend-grid,.tag-grid{grid-template-columns:1fr}
+  .update-item,.chapter-row,.chapter-list .chapter-row,.result-card{grid-template-columns:1fr}
+  .filter-panel,.search-box{grid-template-columns:1fr}
+  .novel-box{padding:18px;border-radius:24px}
+  .reader-content p{font-size:18px}
+  .footer-inner{display:block}
+}

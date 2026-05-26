@@ -1,0 +1,19 @@
+.tag-layout{
+  display:grid;
+  grid-template-columns:280px 1fr;
+  gap:24px;
+  align-items:start;
+}
+.tag-aside{
+  position:sticky;top:96px;
+  padding:20px;border-radius:24px;border:1px solid var(--line);
+  background:var(--paper);
+}
+.tag-aside a{
+  display:block;
+  padding:10px 12px;
+  border-radius:14px;
+  color:var(--muted);
+}
+.tag-aside a:hover,.tag-aside a.active{background:var(--paper-2);color:var(--brand);font-weight:800}
+.tag-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}

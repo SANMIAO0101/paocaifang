@@ -1,0 +1,33 @@
+[
+  {
+    "id": "author-1",
+    "name": "泡菜罐子",
+    "avatar": "assets/images/avatars/author-1.svg",
+    "bio": "偏爱强情绪、悬疑感和拉扯型关系，擅长写外冷内疯的女主与危险感男主。",
+    "social": "https://example.com",
+    "novels": [
+      "novel-1",
+      "novel-3"
+    ]
+  },
+  {
+    "id": "author-2",
+    "name": "小坛盐",
+    "avatar": "assets/images/avatars/author-2.svg",
+    "bio": "喜欢雾港、旧案、成年人的试探与克制，作品以耽美悬疑为主。",
+    "social": "https://example.com",
+    "novels": [
+      "novel-2"
+    ]
+  },
+  {
+    "id": "author-3",
+    "name": "月亮泡菜",
+    "avatar": "assets/images/avatars/author-3.svg",
+    "bio": "写温柔日常与治愈向故事，喜欢把食物、旧物和家族秘密揉进爱情里。",
+    "social": "https://example.com",
+    "novels": [
+      "novel-4"
+    ]
+  }
+]

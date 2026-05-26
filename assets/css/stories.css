@@ -1,0 +1,27 @@
+.filter-panel{
+  display:grid;
+  grid-template-columns:1.5fr repeat(3, minmax(130px,.7fr));
+  gap:12px;
+  padding:18px;
+  border:1px solid var(--line);
+  border-radius:24px;
+  background:var(--paper);
+  box-shadow:0 12px 30px rgba(80,45,28,.08);
+  margin-bottom:24px;
+}
+.filter-panel input,.filter-panel select,.search-box input{
+  width:100%;
+  border:1px solid var(--line);
+  background:var(--bg);
+  color:var(--ink);
+  border-radius:16px;
+  padding:12px 14px;
+  outline:none;
+}
+.filter-panel input:focus,.filter-panel select:focus,.search-box input:focus{
+  border-color:var(--brand-2);
+  box-shadow:0 0 0 4px rgba(207,146,100,.15);
+}
+.story-count{color:var(--muted);margin:0 0 14px}
+.masonry{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.masonry .card-title{font-size:20px}

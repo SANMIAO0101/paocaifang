@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stories｜泡菜小说坊</title>
+  <meta name="description" content="泡菜小说坊：个人原创小说网站，收录女频、耽美、现代、古代、西幻、悬疑等作品。">
+  <link rel="icon" href="assets/images/logo/logo.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/stories.css">
+  <link rel="stylesheet" href="assets/css/mobile.css">
+  <script>window.SITE_BASE = "";</script>
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container navbar">
+    <a class="brand" href="index.html">
+      <img class="logo" src="assets/images/logo/logo.svg" alt="泡菜小说坊Logo">
+      <span>泡菜小说坊</span>
+    </a>
+    <nav class="nav-links" aria-label="主导航">
+      <a href="index.html">Home</a>
+      <a href="stories.html">Stories</a>
+      <a href="search.html">搜索</a>
+      <button class="theme-toggle" type="button" aria-label="切换夜间模式">夜间模式</button>
+      <a href="rss.xml">RSS</a>
+    </nav>
+  </div>
+</header>
+<main class="container">
+  <section class="page-hero">
+    <p class="kicker">Stories</p>
+    <h1 class="page-title">小说总列表</h1>
+    <p class="page-lead">支持分类筛选、标签筛选、状态筛选和关键词搜索。以后新增小说，只要更新 data/novels.json 即可自动出现在这里。</p>
+  </section>
+
+  <section>
+    <div class="filter-panel" aria-label="分类筛选">
+      <input id="keyword" type="search" placeholder="搜索书名、作者、简介、标签……">
+      <select id="category">
+        <option value="all">全部分类</option>
+        <option value="bg">女频</option>
+        <option value="bl">耽美</option>
+      </select>
+      <select id="status">
+        <option value="all">全部状态</option>
+        <option value="连载中">连载中</option>
+        <option value="已完结">已完结</option>
+      </select>
+      <select id="tag">
+        <option value="all">全部标签</option>
+        <option value="modern">现代</option>
+        <option value="ancient">古代</option>
+        <option value="western">西幻</option>
+        <option value="suspense">悬疑</option>
+      </select>
+    </div>
+    <p id="story-count" class="story-count"></p>
+    <div id="story-grid" class="masonry"></div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="container footer-inner">
+    <span>© 2026 泡菜小说坊 · PaoCai Novels</span>
+    <span><a href="stories.html">小说列表</a> · <a href="search.html">搜索</a> · <a href="rss.xml">RSS</a></span>
+  </div>
+</footer>
+<script defer src="assets/js/search.js"></script>
+</body>
+</html>

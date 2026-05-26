@@ -1,0 +1,168 @@
+[
+  {
+    "id": "novel-1",
+    "title": "反应定律",
+    "subtitle": "越想逃，越会被命运反噬。",
+    "authorId": "author-1",
+    "authorName": "泡菜罐子",
+    "category": "女频",
+    "categoryKey": "bg",
+    "status": "连载中",
+    "tags": [
+      "bg",
+      "modern",
+      "suspense"
+    ],
+    "tagNames": [
+      "女频",
+      "现代",
+      "悬疑"
+    ],
+    "intro": "冷感女法医沈知梨重逢旧日对手陆砚。一个连环案件把两人重新拽回十二年前的雨夜，所有证词都在说谎，唯有身体的反应不会。",
+    "cover": "assets/images/covers/novel-1.svg",
+    "banner": "assets/images/banners/banner-1.svg",
+    "updatedAt": "2026-05-25",
+    "latestChapter": "第2章 雨夜证词",
+    "featured": true,
+    "hero": "陆砚｜刑侦顾问，温和外壳下藏着强控制欲。",
+    "heroine": "沈知梨｜法医，冷静、锋利、对亲密关系高度警惕。",
+    "chapters": [
+      {
+        "id": "chapter-1",
+        "title": "第1章 回声",
+        "date": "2026-05-22",
+        "file": "chapters/novel-1/chapter-1.html"
+      },
+      {
+        "id": "chapter-2",
+        "title": "第2章 雨夜证词",
+        "date": "2026-05-25",
+        "file": "chapters/novel-1/chapter-2.html"
+      }
+    ]
+  },
+  {
+    "id": "novel-2",
+    "title": "雾港情书",
+    "subtitle": "他把情书藏进案卷，也把爱意藏进谎言。",
+    "authorId": "author-2",
+    "authorName": "小坛盐",
+    "category": "耽美",
+    "categoryKey": "bl",
+    "status": "已完结",
+    "tags": [
+      "bl",
+      "modern",
+      "suspense"
+    ],
+    "tagNames": [
+      "耽美",
+      "现代",
+      "悬疑"
+    ],
+    "intro": "退役卧底周迟回到雾港，发现多年未见的心理医生闻照正在调查一桩失踪案。越接近真相，他们越确定当年的分离并非偶然。",
+    "cover": "assets/images/covers/novel-2.svg",
+    "banner": "assets/images/banners/banner-2.svg",
+    "updatedAt": "2026-05-19",
+    "latestChapter": "第2章 潮湿档案",
+    "featured": true,
+    "hero": "周迟｜前卧底，嘴硬心软，擅长把危险挡在自己身前。",
+    "heroine": "闻照｜心理医生，温柔克制，习惯用理性包裹偏执。",
+    "chapters": [
+      {
+        "id": "chapter-1",
+        "title": "第1章 雾灯",
+        "date": "2026-05-18",
+        "file": "chapters/novel-2/chapter-1.html"
+      },
+      {
+        "id": "chapter-2",
+        "title": "第2章 潮湿档案",
+        "date": "2026-05-19",
+        "file": "chapters/novel-2/chapter-2.html"
+      }
+    ]
+  },
+  {
+    "id": "novel-3",
+    "title": "金枝藏刃",
+    "subtitle": "她不是笼中花，是被误认成花的刀。",
+    "authorId": "author-1",
+    "authorName": "泡菜罐子",
+    "category": "女频",
+    "categoryKey": "bg",
+    "status": "连载中",
+    "tags": [
+      "bg",
+      "ancient",
+      "western"
+    ],
+    "tagNames": [
+      "女频",
+      "古代",
+      "西幻"
+    ],
+    "intro": "亡国公主伊莱娅被迫嫁入北境王庭。她表面顺从，暗中织网；而新王塞缪尔早已识破她的伪装，却甘愿成为她手中最锋利的一枚棋。",
+    "cover": "assets/images/covers/novel-3.svg",
+    "banner": "assets/images/banners/banner-3.svg",
+    "updatedAt": "2026-05-21",
+    "latestChapter": "第2章 北境玫瑰",
+    "featured": true,
+    "hero": "塞缪尔｜北境新王，沉默、敏锐、占有欲极强。",
+    "heroine": "伊莱娅｜亡国公主，柔弱外表下极会谋算。",
+    "chapters": [
+      {
+        "id": "chapter-1",
+        "title": "第1章 金冠",
+        "date": "2026-05-20",
+        "file": "chapters/novel-3/chapter-1.html"
+      },
+      {
+        "id": "chapter-2",
+        "title": "第2章 北境玫瑰",
+        "date": "2026-05-21",
+        "file": "chapters/novel-3/chapter-2.html"
+      }
+    ]
+  },
+  {
+    "id": "novel-4",
+    "title": "泡菜坛里的月亮",
+    "subtitle": "小镇、旧宅、月色，以及一封没有寄出的信。",
+    "authorId": "author-3",
+    "authorName": "月亮泡菜",
+    "category": "女频",
+    "categoryKey": "bg",
+    "status": "已完结",
+    "tags": [
+      "bg",
+      "modern"
+    ],
+    "tagNames": [
+      "女频",
+      "现代"
+    ],
+    "intro": "美食博主梁又夏回到外婆留下的旧屋，遇见沉默的陶艺师江岑。她以为自己只是短暂停留，却在一坛泡菜里翻出了三代人的秘密。",
+    "cover": "assets/images/covers/novel-4.svg",
+    "banner": "assets/images/banners/banner-4.svg",
+    "updatedAt": "2026-05-12",
+    "latestChapter": "第2章 酸甜发酵",
+    "featured": false,
+    "hero": "江岑｜陶艺师，寡言、细腻，守着一间旧窑。",
+    "heroine": "梁又夏｜美食博主，外热内敏感，害怕长久关系。",
+    "chapters": [
+      {
+        "id": "chapter-1",
+        "title": "第1章 旧屋",
+        "date": "2026-05-10",
+        "file": "chapters/novel-4/chapter-1.html"
+      },
+      {
+        "id": "chapter-2",
+        "title": "第2章 酸甜发酵",
+        "date": "2026-05-12",
+        "file": "chapters/novel-4/chapter-2.html"
+      }
+    ]
+  }
+]

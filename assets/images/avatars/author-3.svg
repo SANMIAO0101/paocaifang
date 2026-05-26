@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="960" viewBox="0 0 720 960">
+  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#D6B99B"/><stop offset="1" stop-color="#A14B24"/></linearGradient></defs>
+  <rect width="720" height="960" rx="54" fill="url(#g)"/>
+  <circle cx="360" cy="305" r="145" fill="#fff8ef" opacity=".82"/>
+  <path d="M155 800c28-145 127-230 205-230s177 85 205 230" fill="#fff8ef" opacity=".82"/>
+  <text x="360" y="346" text-anchor="middle" font-size="112" fill="#A14B24" font-family="serif" font-weight="900">月</text>
+  <text x="360" y="875" text-anchor="middle" font-size="42" fill="#fff8ef" font-family="serif">月亮泡菜</text>
+</svg>

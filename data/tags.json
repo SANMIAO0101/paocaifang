@@ -1,0 +1,32 @@
+[
+  {
+    "key": "bg",
+    "name": "女频",
+    "description": "女主视角为主，包含现代、古代、西幻、悬疑等题材。"
+  },
+  {
+    "key": "bl",
+    "name": "耽美",
+    "description": "双男主故事，偏情感拉扯、悬疑与现代都市。"
+  },
+  {
+    "key": "modern",
+    "name": "现代",
+    "description": "都市、娱乐圈、职场、小镇生活等现代背景作品。"
+  },
+  {
+    "key": "ancient",
+    "name": "古代",
+    "description": "架空古代、宫廷权谋、旧朝秘事与宿命感爱情。"
+  },
+  {
+    "key": "western",
+    "name": "西幻",
+    "description": "王庭、北境、骑士、魔法与贵族权谋。"
+  },
+  {
+    "key": "suspense",
+    "name": "悬疑",
+    "description": "案件、谜团、隐藏过去与反转真相。"
+  }
+]
